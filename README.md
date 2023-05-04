@@ -1,5 +1,5 @@
 # syntax-tree-generator
-The following repositories contain iterations of syntax tree generator which I tried to develop. The basic library which is required is Natural Language Toolkit (NLTK) library in Python which can be installed by pip by running the following command:
+The following repositories contain iterations (iterations here refer to different approaches taken to create a parser) of syntax tree generator which I tried to develop. The basic library which is required is Natural Language Toolkit (NLTK) library in Python which can be installed by pip by running the following command:
 
 ```pip install nltk```
 
@@ -11,10 +11,10 @@ pip install matplotlib
 pip install scipy
 ```
 
-The following repo contains three iterations:
+The following repo contains three iterations :
 
 
-## iteration_1_parser:
+## iteration_1_parser
 - This iteration is using the Natural Language Toolkit (NLTK) library in Python to perform Named Entity Recognition (NER) on a user-entered sentence.
 
 - First, the code imports the necessary functions from the NLTK library: word_tokenize for tokenizing the sentence into words and pos_tag for tagging each word with its part of speech. The user is then prompted to enter a sentence, and the input is stored in the variable "sentence".
