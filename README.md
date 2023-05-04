@@ -34,7 +34,7 @@ This code defines a function called generate_syntax_tree which takes a sentence 
 The main body of the code prompts the user to enter a sentence, and then calls the generate_syntax_tree function with the input sentence. The resulting syntax tree is printed to the console using the print function, and also displayed as a tree diagram using the draw method of the syntax tree object.
 
 
-## finalised_parser:
+## iteration_3_parser:
 - The final iteration is using the Natural Language Toolkit (NLTK) library in Python to extract different parts of speech from a given sentence and display them in a tree diagram. The code first imports the required libraries from NLTK and downloads the necessary models for tokenization and part-of-speech tagging. The example text is then defined in the variable sample_text.
 
 - The code uses the pos_tag and word_tokenize functions from NLTK to tokenize the sentence into individual words and tag each word with its part of speech.
