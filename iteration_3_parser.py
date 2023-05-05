@@ -5,10 +5,10 @@ nltk.download('averaged_perceptron_tagger')
 from nltk import pos_tag, word_tokenize, RegexpParser
 
 # Example text
-sample_text = input("enter your desired sentence to be parsed:")
+input_text = input("enter your desired sentence to be parsed:")
 
 # Find all parts of speech in above sentence
-tagged = pos_tag(word_tokenize(sample_text))
+tagged = pos_tag(word_tokenize(input_text))
 
 #Extract all parts of speech from any text
 chunker = RegexpParser("""
